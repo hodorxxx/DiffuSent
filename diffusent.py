@@ -39,4 +39,4 @@ if __name__ == '__main__':
     elif args.mode == 'eval':
         _eval()
     else:
-        raise Exception("Mode not in ['train', 'eval'], e.g. 'python diffusent.py train ...'")
+        raise Exception("Mode not in ['train', 'eval'], e.g. 'python diffusent.py train'")
